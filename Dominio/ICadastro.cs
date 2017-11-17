@@ -1,10 +1,12 @@
 using System;
 namespace Dominio
 {
-    public interface ICadastro
+    public interface ICadastro <T> where T : class
+    
+        
     {
-        string Cadastrar(Object objeto);
-        string Pesquisar(Object objeto);
+        string Cadastrar(T objeto);
+        string Pesquisar(string campo);
          
     }
 }
