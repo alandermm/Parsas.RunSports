@@ -5,3 +5,5 @@ Cliente
 Fornecedor
 Venda
 Compra
+Produto
+Interface ICadastro
