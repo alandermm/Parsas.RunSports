@@ -34,8 +34,7 @@ namespace Util
 			digito = digito + resto.ToString();
 			return cnpj.EndsWith(digito);
 		}
-
-        public static bool Cpf(string cpf)
+         public static bool Cpf(string cpf)
 	    {
 		int[] multiplicador1 = new int[9] { 10, 9, 8, 7, 6, 5, 4, 3, 2 };
 		int[] multiplicador2 = new int[10] { 11, 10, 9, 8, 7, 6, 5, 4, 3, 2 };
@@ -54,6 +53,7 @@ namespace Util
 		if ( resto < 2 )
 		    resto = 0;
 		else
+
 		   resto = 11 - resto;
 		digito = resto.ToString();
 		tempCpf = tempCpf + digito;
@@ -68,5 +68,8 @@ namespace Util
 		digito = digito + resto.ToString();
 		return cpf.EndsWith(digito);
 	      }
+
+        
+          
     }
 }
