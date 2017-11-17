@@ -1,0 +1,10 @@
+C:\Users\01317235614\backend\Parsas.RunSports\Repositorio\obj\Debug\netstandard2.0\Repositorio.csproj.CoreCompileInputs.cache
+C:\Users\01317235614\backend\Parsas.RunSports\Repositorio\obj\Debug\netstandard2.0\Repositorio.AssemblyInfoInputs.cache
+C:\Users\01317235614\backend\Parsas.RunSports\Repositorio\obj\Debug\netstandard2.0\Repositorio.AssemblyInfo.cs
+C:\Users\01317235614\backend\Parsas.RunSports\Repositorio\bin\Debug\netstandard2.0\Repositorio.deps.json
+C:\Users\01317235614\backend\Parsas.RunSports\Repositorio\bin\Debug\netstandard2.0\Repositorio.dll
+C:\Users\01317235614\backend\Parsas.RunSports\Repositorio\bin\Debug\netstandard2.0\Repositorio.pdb
+C:\Users\01317235614\backend\Parsas.RunSports\Repositorio\bin\Debug\netstandard2.0\Dominio.dll
+C:\Users\01317235614\backend\Parsas.RunSports\Repositorio\bin\Debug\netstandard2.0\Dominio.pdb
+C:\Users\01317235614\backend\Parsas.RunSports\Repositorio\obj\Debug\netstandard2.0\Repositorio.dll
+C:\Users\01317235614\backend\Parsas.RunSports\Repositorio\obj\Debug\netstandard2.0\Repositorio.pdb

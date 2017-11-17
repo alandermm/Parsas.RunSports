@@ -6,8 +6,16 @@ using Dominio;
 
 namespace Repositorio
 {
-    public class ClienteREP : Cliente , ICadastro
+    public class ClienteREP : Pessoa, ICadastro
     {
-        
+        public string Cadastrar(object objeto)
+        {
+            throw new NotImplementedException();
+        }
+
+        public string Pesquisar(object objeto)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

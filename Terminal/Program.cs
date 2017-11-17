@@ -6,7 +6,26 @@ namespace Terminal
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
+        }
+
+        static void menuPrincipal(){
+            int opt = 0;
+            do{
+                
+            }while (opt != 9);
+        }
+
+        static void menuCadastro(){
+
+        }
+
+        static void formaPagamento(){
+
+        }
+
+        static void menuHistorico(){
+
         }
     }
 }
