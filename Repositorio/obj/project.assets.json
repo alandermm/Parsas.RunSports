@@ -193,23 +193,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\FIC\\.nuget\\packages\\": {},
+    "C:\\Users\\44851343850\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "f:\\SENAI\\OO\\Projetos\\SistemaRunSport\\Parsas.RunSports\\Repositorio\\Repositorio.csproj",
+      "projectUniqueName": "c:\\Users\\44851343850\\backend\\Parsas.RunSports\\Repositorio\\Repositorio.csproj",
       "projectName": "Repositorio",
-      "projectPath": "f:\\SENAI\\OO\\Projetos\\SistemaRunSport\\Parsas.RunSports\\Repositorio\\Repositorio.csproj",
-      "packagesPath": "C:\\Users\\FIC\\.nuget\\packages\\",
-      "outputPath": "f:\\SENAI\\OO\\Projetos\\SistemaRunSport\\Parsas.RunSports\\Repositorio\\obj\\",
+      "projectPath": "c:\\Users\\44851343850\\backend\\Parsas.RunSports\\Repositorio\\Repositorio.csproj",
+      "packagesPath": "C:\\Users\\44851343850\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\44851343850\\backend\\Parsas.RunSports\\Repositorio\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\FIC\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\44851343850\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
@@ -220,8 +220,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "f:\\SENAI\\OO\\Projetos\\SistemaRunSport\\Parsas.RunSports\\Dominio\\Dominio.csproj": {
-              "projectPath": "f:\\SENAI\\OO\\Projetos\\SistemaRunSport\\Parsas.RunSports\\Dominio\\Dominio.csproj"
+            "c:\\Users\\44851343850\\backend\\Parsas.RunSports\\Dominio\\Dominio.csproj": {
+              "projectPath": "c:\\Users\\44851343850\\backend\\Parsas.RunSports\\Dominio\\Dominio.csproj"
             }
           }
         }
