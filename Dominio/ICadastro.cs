@@ -1,7 +1,7 @@
 using System;
 namespace Dominio
 {
-    interface ICadastro
+    public interface ICadastro
     {
         string Cadastrar(Object objeto);
         string Pesquisar(Object objeto);

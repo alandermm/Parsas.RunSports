@@ -1,0 +1,16 @@
+C:\Users\01317235614\backend\Parsas.RunSports\Terminal\bin\Debug\netcoreapp2.0\Terminal.deps.json
+C:\Users\01317235614\backend\Parsas.RunSports\Terminal\bin\Debug\netcoreapp2.0\Terminal.runtimeconfig.json
+C:\Users\01317235614\backend\Parsas.RunSports\Terminal\bin\Debug\netcoreapp2.0\Terminal.runtimeconfig.dev.json
+C:\Users\01317235614\backend\Parsas.RunSports\Terminal\bin\Debug\netcoreapp2.0\Terminal.dll
+C:\Users\01317235614\backend\Parsas.RunSports\Terminal\bin\Debug\netcoreapp2.0\Terminal.pdb
+C:\Users\01317235614\backend\Parsas.RunSports\Terminal\bin\Debug\netcoreapp2.0\Dominio.dll
+C:\Users\01317235614\backend\Parsas.RunSports\Terminal\bin\Debug\netcoreapp2.0\Repositorio.dll
+C:\Users\01317235614\backend\Parsas.RunSports\Terminal\bin\Debug\netcoreapp2.0\Util.dll
+C:\Users\01317235614\backend\Parsas.RunSports\Terminal\bin\Debug\netcoreapp2.0\Util.pdb
+C:\Users\01317235614\backend\Parsas.RunSports\Terminal\bin\Debug\netcoreapp2.0\Repositorio.pdb
+C:\Users\01317235614\backend\Parsas.RunSports\Terminal\bin\Debug\netcoreapp2.0\Dominio.pdb
+C:\Users\01317235614\backend\Parsas.RunSports\Terminal\obj\Debug\netcoreapp2.0\Terminal.csproj.CoreCompileInputs.cache
+C:\Users\01317235614\backend\Parsas.RunSports\Terminal\obj\Debug\netcoreapp2.0\Terminal.AssemblyInfoInputs.cache
+C:\Users\01317235614\backend\Parsas.RunSports\Terminal\obj\Debug\netcoreapp2.0\Terminal.AssemblyInfo.cs
+C:\Users\01317235614\backend\Parsas.RunSports\Terminal\obj\Debug\netcoreapp2.0\Terminal.dll
+C:\Users\01317235614\backend\Parsas.RunSports\Terminal\obj\Debug\netcoreapp2.0\Terminal.pdb
