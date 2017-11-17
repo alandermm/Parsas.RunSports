@@ -196,6 +196,39 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "Dominio/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Dominio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Dominio.dll": {}
+        }
+      },
+      "Repositorio/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Dominio": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Repositorio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Repositorio.dll": {}
+        }
+      },
+      "Util/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Util.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Util.dll": {}
+        }
       }
     }
   },
@@ -656,31 +689,49 @@
         "netstandard.library.2.0.0.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "Dominio/1.0.0": {
+      "type": "project",
+      "path": "../Dominio/Dominio.csproj",
+      "msbuildProject": "../Dominio/Dominio.csproj"
+    },
+    "Repositorio/1.0.0": {
+      "type": "project",
+      "path": "../Repositorio/Repositorio.csproj",
+      "msbuildProject": "../Repositorio/Repositorio.csproj"
+    },
+    "Util/1.0.0": {
+      "type": "project",
+      "path": "../Util/Util.csproj",
+      "msbuildProject": "../Util/Util.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
-      "Microsoft.NETCore.App >= 2.0.0"
+      "Dominio >= 1.0.0",
+      "Microsoft.NETCore.App >= 2.0.0",
+      "Repositorio >= 1.0.0",
+      "Util >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\01317235614\\.nuget\\packages\\": {},
+    "C:\\Users\\44851343850\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\01317235614\\backend\\Parsas.RunSports\\Terminal\\Terminal.csproj",
+      "projectUniqueName": "c:\\Users\\44851343850\\backend\\Parsas.RunSports\\Terminal\\Terminal.csproj",
       "projectName": "Terminal",
-      "projectPath": "C:\\Users\\01317235614\\backend\\Parsas.RunSports\\Terminal\\Terminal.csproj",
-      "packagesPath": "C:\\Users\\01317235614\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\01317235614\\backend\\Parsas.RunSports\\Terminal\\obj\\",
+      "projectPath": "c:\\Users\\44851343850\\backend\\Parsas.RunSports\\Terminal\\Terminal.csproj",
+      "packagesPath": "C:\\Users\\44851343850\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\44851343850\\backend\\Parsas.RunSports\\Terminal\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\01317235614\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\44851343850\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
@@ -690,7 +741,17 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "c:\\Users\\44851343850\\backend\\Parsas.RunSports\\Util\\Util.csproj": {
+              "projectPath": "c:\\Users\\44851343850\\backend\\Parsas.RunSports\\Util\\Util.csproj"
+            },
+            "c:\\Users\\44851343850\\backend\\Parsas.RunSports\\Repositorio\\Repositorio.csproj": {
+              "projectPath": "c:\\Users\\44851343850\\backend\\Parsas.RunSports\\Repositorio\\Repositorio.csproj"
+            },
+            "c:\\Users\\44851343850\\backend\\Parsas.RunSports\\Dominio\\Dominio.csproj": {
+              "projectPath": "c:\\Users\\44851343850\\backend\\Parsas.RunSports\\Dominio\\Dominio.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
