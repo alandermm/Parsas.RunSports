@@ -3,7 +3,7 @@ namespace Dominio
     /// <summary>
     /// Criação da Classe Produto que herdará os atributos da Classe Pessoa e os métodos da Interface ICadastro
     /// </summary>
-    public class Produto:Pessoa,ICadastro
+    public class Produto : Pessoa
     {
 
         /// <summary>
@@ -11,7 +11,7 @@ namespace Dominio
         /// </summary>
         public Produto()
         {
-            
+
         }
 
         /// <summary>
@@ -21,25 +21,14 @@ namespace Dominio
         /// <param name="telefone"></param>
         /// <param name="documento"></param>
         /// <param name="email"></param>
-        public Produto(string nome,string telefone,string documento,string email)
+        public Produto(string nome, string telefone, string documento, string email)
         {
             base.Nome = nome;
             base.Telefone = telefone;
             base.Documento = documento;
-            base.Email = email;            
+            base.Email = email;
         }
 
-
-        
-        public string Cadastrar()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public string Pesquisar()
-        {
-            throw new System.NotImplementedException();
-        }
     }
 
 }

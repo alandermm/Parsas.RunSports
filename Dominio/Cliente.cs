@@ -3,15 +3,15 @@ namespace Dominio
     /// <summary>
     /// Criação da Classe Cliente que herdará os atributos da Classe Pessoa e os métodos da Interface ICadastro
     /// </summary>
-    public class Cliente:Pessoa,ICadastro
+    public class Cliente : Pessoa
     {
 
         /// <summary>
-        /// Construtor vazio
+        /// Construtor Vazio
         /// </summary>
         public Cliente()
         {
-            
+
         }
 
         /// <summary>
@@ -21,25 +21,14 @@ namespace Dominio
         /// <param name="telefone"></param>
         /// <param name="documento"></param>
         /// <param name="email"></param>
-        public Cliente(string nome,string telefone,string documento,string email)
+        public Cliente(string nome, string telefone, string documento, string email)
         {
             base.Nome = nome;
             base.Telefone = telefone;
             base.Documento = documento;
-            base.Email = email;            
+            base.Email = email;
         }
 
-
-        
-        public string Cadastrar()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public string Pesquisar()
-        {
-            throw new System.NotImplementedException();
-        }
     }
 
 }
