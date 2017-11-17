@@ -1,9 +1,10 @@
+using System;
 namespace Dominio
 {
     interface ICadastro
     {
-        string Cadastrar();
-        string Pesquisar();
+        string Cadastrar(Object objeto);
+        string Pesquisar(Object objeto);
          
     }
 }
