@@ -1,1 +1,3 @@
-namespace Dominio
+namespace Dominio{
+    public class Cliente:Pessoa,ICadastro
+}
