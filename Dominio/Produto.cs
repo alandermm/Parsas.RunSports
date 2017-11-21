@@ -1,9 +1,9 @@
 namespace Dominio
 {
     /// <summary>
-    /// Criação da Classe Produto que herdará os atributos da Classe Pessoa e os métodos da Interface ICadastro
+    /// Criação da Classe Produto
     /// </summary>
-    public class Produto : Pessoa
+    public class Produto 
     {
 
         /// <summary>
@@ -15,18 +15,19 @@ namespace Dominio
         }
 
         /// <summary>
-        /// Construtor criado com base nos atributos herdados da classe pai Pessoa
+        /// Construtor
         /// </summary>
         /// <param name="nome"></param>
-        /// <param name="telefone"></param>
-        /// <param name="documento"></param>
-        /// <param name="email"></param>
-        public Produto(string nome, string telefone, string documento, string email)
+        /// <param name="descricao"></param>
+        /// <param name="preco"></param>
+        /// <param name="id"></param>
+        public Produto(string id, string nome, string descricao, double preco)
         {
-            base.Nome = nome;
-            base.Telefone = telefone;
-            base.Documento = documento;
-            base.Email = email;
+            this.Id = id;
+            this.Nome = nome;
+            this.Descricao = descricao;
+            this.Preco = preco;
+            
         }
 
     }
