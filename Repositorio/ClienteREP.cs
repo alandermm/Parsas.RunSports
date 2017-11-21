@@ -35,9 +35,31 @@ namespace Repositorio
         
         
 
-        public string Pesquisar(object objeto)
+        public string Pesquisar(string pesq_nome)
         {
-            throw new NotImplementedException();
+            string resultado="Cliente não encontrado";
+            StreamReader ler = null;
+            try{
+                ler =  new StreamReader("cliente.csv",Encoding.Default);
+                string linha="";
+                while((linha=ler.ReadLine())!=null){
+                    string[] dados= linha.Split(';');
+                    if(dados[0]==pesq_nome){
+                        resultado=linha;
+                        break;
+                    }
+
+                }
+
+            }catch(Exception e){
+                resultado = "Erro ao tentar ler o arquivo"+e.Message;
+            }finally{
+                ler.Close();
+            }
+
+
+
+            return resultado;
         }
     }
 }
