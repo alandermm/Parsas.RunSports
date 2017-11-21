@@ -715,71 +715,23 @@
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
-    "C:\\Users\\38954777880\\.nuget\\packages\\": {},
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "C:\\Users\\44851343850\\.nuget\\packages\\": {},
-=======
-    "C:\\Users\\38954777880\\.nuget\\packages\\": {},
->>>>>>> e5bd74ca9873388ca8ae8d307396697b47f0cdff
-=======
     "C:\\Users\\01317235614\\.nuget\\packages\\": {},
->>>>>>> 06f4daaf20549c431f3eda90da5cbf8086bc7604
->>>>>>> f22867ccd929ac62701a1ce9c53e87ed1e72f730
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "c:\\Users\\38954777880\\BackEnd\\Parsas.RunSports\\Terminal\\Terminal.csproj",
-      "projectName": "Terminal",
-      "projectPath": "c:\\Users\\38954777880\\BackEnd\\Parsas.RunSports\\Terminal\\Terminal.csproj",
-      "packagesPath": "C:\\Users\\38954777880\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\38954777880\\BackEnd\\Parsas.RunSports\\Terminal\\obj\\",
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-      "projectUniqueName": "c:\\Users\\44851343850\\backend\\Parsas.RunSports\\Terminal\\Terminal.csproj",
-      "projectName": "Terminal",
-      "projectPath": "c:\\Users\\44851343850\\backend\\Parsas.RunSports\\Terminal\\Terminal.csproj",
-      "packagesPath": "C:\\Users\\44851343850\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\44851343850\\backend\\Parsas.RunSports\\Terminal\\obj\\",
-=======
-      "projectUniqueName": "c:\\Users\\38954777880\\BackEnd\\Parsas.RunSports\\Terminal\\Terminal.csproj",
-      "projectName": "Terminal",
-      "projectPath": "c:\\Users\\38954777880\\BackEnd\\Parsas.RunSports\\Terminal\\Terminal.csproj",
-      "packagesPath": "C:\\Users\\38954777880\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\38954777880\\BackEnd\\Parsas.RunSports\\Terminal\\obj\\",
->>>>>>> e5bd74ca9873388ca8ae8d307396697b47f0cdff
-=======
       "projectUniqueName": "C:\\Users\\01317235614\\backend\\Parsas.RunSports\\Terminal\\Terminal.csproj",
       "projectName": "Terminal",
       "projectPath": "C:\\Users\\01317235614\\backend\\Parsas.RunSports\\Terminal\\Terminal.csproj",
       "packagesPath": "C:\\Users\\01317235614\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\01317235614\\backend\\Parsas.RunSports\\Terminal\\obj\\",
->>>>>>> 06f4daaf20549c431f3eda90da5cbf8086bc7604
->>>>>>> f22867ccd929ac62701a1ce9c53e87ed1e72f730
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-<<<<<<< HEAD
-        "C:\\Users\\38954777880\\AppData\\Roaming\\NuGet\\NuGet.Config"
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "C:\\Users\\44851343850\\AppData\\Roaming\\NuGet\\NuGet.Config"
-=======
-        "C:\\Users\\38954777880\\AppData\\Roaming\\NuGet\\NuGet.Config"
->>>>>>> e5bd74ca9873388ca8ae8d307396697b47f0cdff
-=======
         "C:\\Users\\01317235614\\AppData\\Roaming\\NuGet\\NuGet.Config"
->>>>>>> 06f4daaf20549c431f3eda90da5cbf8086bc7604
->>>>>>> f22867ccd929ac62701a1ce9c53e87ed1e72f730
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
@@ -790,45 +742,14 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-<<<<<<< HEAD
-            "c:\\Users\\38954777880\\BackEnd\\Parsas.RunSports\\Util\\Util.csproj": {
-              "projectPath": "c:\\Users\\38954777880\\BackEnd\\Parsas.RunSports\\Util\\Util.csproj"
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "c:\\Users\\44851343850\\backend\\Parsas.RunSports\\Util\\Util.csproj": {
-              "projectPath": "c:\\Users\\44851343850\\backend\\Parsas.RunSports\\Util\\Util.csproj"
-            },
-            "c:\\Users\\44851343850\\backend\\Parsas.RunSports\\Repositorio\\Repositorio.csproj": {
-              "projectPath": "c:\\Users\\44851343850\\backend\\Parsas.RunSports\\Repositorio\\Repositorio.csproj"
-            },
-            "c:\\Users\\44851343850\\backend\\Parsas.RunSports\\Dominio\\Dominio.csproj": {
-              "projectPath": "c:\\Users\\44851343850\\backend\\Parsas.RunSports\\Dominio\\Dominio.csproj"
-=======
-            "c:\\Users\\38954777880\\BackEnd\\Parsas.RunSports\\Util\\Util.csproj": {
-              "projectPath": "c:\\Users\\38954777880\\BackEnd\\Parsas.RunSports\\Util\\Util.csproj"
-=======
             "C:\\Users\\01317235614\\backend\\Parsas.RunSports\\Util\\Util.csproj": {
               "projectPath": "C:\\Users\\01317235614\\backend\\Parsas.RunSports\\Util\\Util.csproj"
->>>>>>> 06f4daaf20549c431f3eda90da5cbf8086bc7604
->>>>>>> f22867ccd929ac62701a1ce9c53e87ed1e72f730
             },
-            "c:\\Users\\38954777880\\BackEnd\\Parsas.RunSports\\Repositorio\\Repositorio.csproj": {
-              "projectPath": "c:\\Users\\38954777880\\BackEnd\\Parsas.RunSports\\Repositorio\\Repositorio.csproj"
+            "C:\\Users\\01317235614\\backend\\Parsas.RunSports\\Repositorio\\Repositorio.csproj": {
+              "projectPath": "C:\\Users\\01317235614\\backend\\Parsas.RunSports\\Repositorio\\Repositorio.csproj"
             },
-<<<<<<< HEAD
-            "c:\\Users\\38954777880\\BackEnd\\Parsas.RunSports\\Dominio\\Dominio.csproj": {
-              "projectPath": "c:\\Users\\38954777880\\BackEnd\\Parsas.RunSports\\Dominio\\Dominio.csproj"
-=======
-<<<<<<< HEAD
-            "c:\\Users\\38954777880\\BackEnd\\Parsas.RunSports\\Dominio\\Dominio.csproj": {
-              "projectPath": "c:\\Users\\38954777880\\BackEnd\\Parsas.RunSports\\Dominio\\Dominio.csproj"
->>>>>>> e5bd74ca9873388ca8ae8d307396697b47f0cdff
-=======
             "C:\\Users\\01317235614\\backend\\Parsas.RunSports\\Dominio\\Dominio.csproj": {
               "projectPath": "C:\\Users\\01317235614\\backend\\Parsas.RunSports\\Dominio\\Dominio.csproj"
->>>>>>> 06f4daaf20549c431f3eda90da5cbf8086bc7604
->>>>>>> f22867ccd929ac62701a1ce9c53e87ed1e72f730
             }
           }
         }
@@ -855,5 +776,13 @@
         "warn": true
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\01317235614\\backend\\Parsas.RunSports\\Terminal\\obj\\Terminal.csproj.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

@@ -1,4 +1,6 @@
 ﻿using System;
+using Dominio;
+using Repositorio;
 
 namespace Terminal
 {
@@ -12,7 +14,7 @@ namespace Terminal
         static void menuPrincipal(){
             int opt = 0;
             do{
-                Console.println(
+                Console.WriteLine(
                     "Escolha uma das opções abaixo:" +
                     "1 - Cadastrar" +
                     "2 - Vender" +
@@ -34,15 +36,20 @@ namespace Terminal
                 case 4:
                     break;
                 case 9: 
-                    Enviroment.Exit(0);
+                    Environment.Exit(0);
                     break;
             }
+
+            Cliente pessoa = new Cliente();
+
+            
+            new ClienteREP().Cadastrar(pessoa);
         }
         
         static void menuCadastro(){
             int opt = 0;
             do{
-                Console.println(
+                Console.WriteLine(
                     "Escolha uma das opções abaixo:" +
                     "1 - Cadastrar Produto" +
                     "2 - Cadastrar Cliente" +
@@ -56,7 +63,7 @@ namespace Terminal
         static void formaPagamento(){
             int opt = 0;
             do{
-                Console.println(
+                Console.WriteLine(
                     "Escolha a forma de pagamento:" +
                     "1 - À Vista" +
                     "2 - Debito" +
@@ -70,7 +77,7 @@ namespace Terminal
         static void menuHistorico(){
             int opt = 0;
             do{
-                Console.println(
+                Console.WriteLine(
                     "Escolha o histórico a ser exibido:" +
                     "1 - Histórico de Vendas" +
                     "2 - Histórico de compras" +
