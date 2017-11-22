@@ -8,7 +8,7 @@ namespace Repositorio
 {
     public class ClienteREP : Pessoa, ICadastro<Cliente>
     {
-        public bool Cadastrar(Cliente objeto)
+        public bool Cadastrar(Cliente cliente)
         {
             bool efetuado = false;
             StreamWriter arquivo = null;
@@ -26,7 +26,6 @@ namespace Repositorio
                 throw new Exception("Erro ao tentar gravar o arquivo"+erro.Message);
             }
 
-
             finally{
                 arquivo.Close();
             }
@@ -35,7 +34,12 @@ namespace Repositorio
         
         
 
-        public string Pesquisar(object objeto)
+        public string Pesquisar(string campo)
+        {
+            throw new NotImplementedException();
+        }
+
+        string ICadastro<Cliente>.Cadastrar(Cliente objeto)
         {
             throw new NotImplementedException();
         }

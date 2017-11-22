@@ -1,3 +1,4 @@
+using Dominio;
 namespace Dominio
 {
     /// <summary>

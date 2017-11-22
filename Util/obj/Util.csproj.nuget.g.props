@@ -3,27 +3,9 @@
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
-<<<<<<< HEAD
-    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">c:\Users\38954777880\BackEnd\Parsas.RunSports\Util\obj\project.assets.json</ProjectAssetsFile>
-    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
-    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\38954777880\.nuget\packages\;C:\Program Files\dotnet\sdk\NuGetFallbackFolder</NuGetPackageFolders>
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">c:\Users\44851343850\backend\Parsas.RunSports\Util\obj\project.assets.json</ProjectAssetsFile>
-    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
-    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\44851343850\.nuget\packages\;C:\Program Files\dotnet\sdk\NuGetFallbackFolder</NuGetPackageFolders>
-=======
-    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">c:\Users\38954777880\BackEnd\Parsas.RunSports\Util\obj\project.assets.json</ProjectAssetsFile>
-    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
-    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\38954777880\.nuget\packages\;C:\Program Files\dotnet\sdk\NuGetFallbackFolder</NuGetPackageFolders>
->>>>>>> e5bd74ca9873388ca8ae8d307396697b47f0cdff
-=======
     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">C:\Users\01317235614\backend\Parsas.RunSports\Util\obj\project.assets.json</ProjectAssetsFile>
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
     <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\01317235614\.nuget\packages\;C:\Program Files\dotnet\sdk\NuGetFallbackFolder</NuGetPackageFolders>
->>>>>>> 06f4daaf20549c431f3eda90da5cbf8086bc7604
->>>>>>> f22867ccd929ac62701a1ce9c53e87ed1e72f730
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
     <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">4.4.0</NuGetToolVersion>
   </PropertyGroup>
